@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.*;
 
 class Student {
     int rollno;
@@ -86,6 +85,7 @@ public class Comparaterwithclass {
         //  Collections.sort(list, Comparator.comparingInt(Student::getAge)); // method 2
         // -------------------------------------------------------------------------------------------
         // list.sort(Comparator.comparingInt(Student::getAge).reversed().thenComparing(Student::getName)); // method 3
+        //ye best hai
 // -------------------------------------------------------------------------------------------
         System.out.println("Sorted by age:");
         for (Student s : list) {
