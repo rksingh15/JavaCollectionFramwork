@@ -1,4 +1,4 @@
-package HashMap;
+package JavaCollectionFramework;
 
 public class LinkedHashMap {
     
